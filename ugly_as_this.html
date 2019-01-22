@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Visualisation Assignment 1: The ugliest page I can think of</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <audio id="audioID" controls>
+    <source src="music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <script>
+    //Defining variable based on unique ID
+
+    var audio1 = document.getElementById("audioID");
+
+    //Example of an HTML Audio/Video Method
+
+    function playAudio() {
+      audio1.play();
+    }
+  </script>
+</head>
+<body>
+  <h1>Welcome to Sebastian's page</h1><img src="IMG_7686.jpeg" alt="me" style="width:400px; margin-left:15px;"  onmouseenter="playAudio()">
+  <hr>
+  <div class="standard">
+    <h2>About me</h2>
+    <ul>
+      <li>my name is Sebastian</li>
+      <li>my hobbies are drinking coffee and eating pizza</li>
+      <li>i don't have pets</li>
+      <li>i am 31 years of age but in pristine condition</li>
+      <li>i play music when a cursor hovers over me</li>
+    </ul>
+  </div>
+  <hr>
+  <div class="standard">
+    <h2>Contact Details</h2>
+    <p><a href="mailto:sebastian.wolf@barcelonagse.eu?Subject=Que%20paso" target="_top">email: sebastian.wolf@barcelonagse.eu</a></p>
+    <p>phone: 0800/123456789</p>
+  </div>
+  <hr>
+  <div class="standard">
+    <h2>Some of my favorite Barcelona moments</h2>
+    <div class="dropdown">
+      <img src="IMG_7640.jpeg" alt="Parc Ciutadella" width="100">
+      <div class="dropdown-content">
+        <img src="IMG_7640.jpeg" alt="Parc Ciutadella" height="600">
+        <div class="desc">Parc Ciutadella</div>
+      </div>
+    </div>
+    <div class="dropdown">
+      <img src="IMG_7159.jpeg" alt="Nice view" width="100">
+      <div class="dropdown-content">
+        <img src="IMG_7159.jpeg" alt="Nice view" height="600">
+        <div class="desc">Nice view</div>
+      </div>
+    </div>
+    <div class="dropdown">
+      <img src="IMG_7191.jpeg" alt="Arc de Triomf" width="100">
+      <div class="dropdown-content">
+        <img src="IMG_7191.jpeg" alt="Arc de Triomf" width="600">
+        <div class="desc">Arc de Triomf</div>
+      </div>
+    </div>
+  </div>
+  <hr>
+</body>
+</html>
